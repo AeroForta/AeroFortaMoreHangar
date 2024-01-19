@@ -7,6 +7,7 @@ This plugin will add/set the amount of hangar bay for Magnus and Overlord(and an
 Global multiplier so you don't need to individually adjust everything?
 
 THIS ISN'T THE PLUGIN FAULT, AS IT ALWAYS HAPPENED WHENEVER YOU FLYING YOUR SHIP DOCK TO THE MAGNUS AND OVERLORD(AN POSSIBLY OTHER UNIT) THEN EXIT SHIP THEN OPEN HANGAR THEN UNDOCK
+
 [Error  : Unity Log] NullReferenceException
 Stack trace:
 Pixelfactor.IP.UI.DockedShipItemUI.Refresh () (at <8eb6137703954d1cb8ca8d7645480f38>:0)
@@ -16,3 +17,5 @@ Pixelfactor.IP.UI.ScrollList`1+<StartVisibleItemRefreshCoroutine>d__67[T_Item].M
 UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at <b4d07dbbaa0446c4a7400ff3f626fbc9>:0)
 
 [Error  :UnityExplorer] [Unity] NullReferenceException
+
+Anyway Enjoy
