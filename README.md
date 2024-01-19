@@ -19,3 +19,6 @@ UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumer
 [Error  :UnityExplorer] [Unity] NullReferenceException
 
 # Anyway Enjoy
+-BepInEx is required
+-Definitely not compatible with other game
+-Tested only in 2.0.55 Steam version (Public Beta)
