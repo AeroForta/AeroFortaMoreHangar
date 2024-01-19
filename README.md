@@ -16,7 +16,6 @@ Pixelfactor.IP.UI.ScrollList`1[T_Item].RefreshVisibleItemsIfRequired () (at <8eb
 Pixelfactor.IP.UI.ScrollList`1+<StartVisibleItemRefreshCoroutine>d__67[T_Item].MoveNext () (at <8eb6137703954d1cb8ca8d7645480f38>:0)
 UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at <b4d07dbbaa0446c4a7400ff3f626fbc9>:0)
 
-[Error  :UnityExplorer] [Unity] NullReferenceException
 
 # Anyway Enjoy
 - BepInEx is required
