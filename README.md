@@ -16,6 +16,8 @@ Global multiplier so you don't need to individually adjust everything?
 
 THIS ISN'T THE PLUGIN FAULT, AS IT ALWAYS HAPPENED WHENEVER YOU FLYING YOUR SHIP DOCK TO THE MAGNUS AND OVERLORD(AN POSSIBLY OTHER UNIT) THEN EXIT SHIP THEN OPEN HANGAR THEN UNDOCK
 
+THIS ERROR ALSO WON'T CRASH THE GAME, IT JUST SCREAM [Error  : Unity Log] NullReferenceException IN THE LOG
+
 [Error  : Unity Log] NullReferenceException
 Stack trace:
 Pixelfactor.IP.UI.DockedShipItemUI.Refresh () (at <8eb6137703954d1cb8ca8d7645480f38>:0)
