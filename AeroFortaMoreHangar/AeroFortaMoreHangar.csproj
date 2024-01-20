@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net46</TargetFramework>
     <AssemblyName>AeroFortaMoreHangar</AssemblyName>
-    <Description>My first plugin</Description>
+    <Description>Add and/or modify hangar of Magnus and Overlord</Description>
     <Version>1.0.0</Version>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <LangVersion>latest</LangVersion>
