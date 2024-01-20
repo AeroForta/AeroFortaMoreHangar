@@ -43,152 +43,153 @@ namespace AeroFortaMoreHangar
         private void Awake()
         {
             numberOfBayHangarUnitMagnusA = Config.Bind(
-                "BayHangar",
                 "UnitMagnusA",
+                "BayHangar",
                 6,
                 "Number of hangar bay for UnitMagnusA."
             );
             maxHullTypeUnitMagnusA = Config.Bind(
-                "MaxHullType",
                 "UnitMagnusA",
+                "MaxHullType",
                 ShipHullType.Frigate,
-                "Max hull type for UnitMagnusA, need SetNumberInsteadAddUnitMagnusA To be true because It won't change the already existing hangar bay"
+                "Max hull type for UnitMagnusA, need SetNumberInsteadAddUnitMagnusA To be true because otherwise it won't change the already existing hangar bay"
             );
             setNumberInsteadAddUnitMagnusA = Config.Bind(
-                "Settings",
+                "UnitMagnusA",
                 "SetNumberInsteadAddUnitMagnusA",
                 false,
                 "If true, set the number of hangar bay instead of adding for UnitMagnusA"
             );
 
             numberOfBayHangarUnitMagnus = Config.Bind(
-                "BayHangar",
                 "UnitMagnus",
+                "BayHangar",
                 6,
                 "Number of hangar bay for UnitMagnus."
             );
             maxHullTypeUnitMagnus = Config.Bind(
-                "MaxHullType",
                 "UnitMagnus",
+                "MaxHullType",
                 ShipHullType.Frigate,
                 "Max hull type for UnitMagnus, need SetNumberInsteadAddUnitMagnus To be true because It won't change the already existing hangar bay"
             );
             setNumberInsteadAddUnitMagnus = Config.Bind(
-                "Settings",
+                "UnitMagnus",
                 "SetNumberInsteadAddUnitMagnus",
                 false,
                 "If true, set the number of hangar bay instead of adding for UnitMagnus"
             );
 
             numberOfBayHangarUnitMagnusX = Config.Bind(
-                "BayHangar",
                 "UnitMagnusX",
+                "BayHangar",
                 6,
                 "Number of hangar bay for UnitMagnusX."
             );
             maxHullTypeUnitMagnusX = Config.Bind(
-                "MaxHullType",
                 "UnitMagnusX",
+                "MaxHullType",
                 ShipHullType.Frigate,
                 "Max hull type for UnitMagnusX, need SetNumberInsteadAddUnitMagnusX To be true because It won't change the already existing hangar bay"
             );
             setNumberInsteadAddUnitMagnusX = Config.Bind(
-                "Settings",
+                "UnitMagnusX",
                 "SetNumberInsteadAddUnitMagnusX",
                 false,
                 "If true, set the number of hangar bay instead of adding for UnitMagnusX"
             );
 
             numberOfBayHangarUnitMagnusEQ = Config.Bind(
-                "BayHangar",
                 "UnitMagnusEQ",
+                "BayHangar",
                 6,
                 "Number of hangar bay for UnitMagnusEQ."
             );
             maxHullTypeUnitMagnusEQ = Config.Bind(
-                "MaxHullType",
                 "UnitMagnusEQ",
+                "MaxHullType",
                 ShipHullType.Frigate,
-                "Max hull type for UnitMagnusEQ, need SetNumberInsteadAddUnitMagnusEQ To be true because It won't change the already existing hangar bay"
+                "Max hull type for UnitMagnusEQ, need SetNumberInsteadAddUnitMagnusEQ To be true because otherwise it won't change the already existing hangar bay"
             );
             setNumberInsteadAddUnitMagnusEQ = Config.Bind(
-                "Settings",
+                "UnitMagnusEQ",
                 "SetNumberInsteadAddUnitMagnusEQ",
                 false,
                 "If true, set the number of hangar bay instead of adding for UnitMagnusEQ"
             );
 
             numberOfBayHangarUnitMagnusXPirateBlack = Config.Bind(
-                "BayHangar",
                 "UnitMagnusXPirateBlack",
+                "BayHangar",
                 6,
                 "Number of hangar bay for UnitMagnusXPirateBlack."
             );
             maxHullTypeUnitMagnusXPirateBlack = Config.Bind(
-                "MaxHullType",
                 "UnitMagnusXPirateBlack",
+                "MaxHullType",
                 ShipHullType.Frigate,
-                "Max hull type for UnitMagnusXPirateBlack, need SetNumberInsteadAddUnitMagnusXPirateBlack To be true because It won't change the already existing hangar bay"
+                "Max hull type for UnitMagnusXPirateBlack, need SetNumberInsteadAddUnitMagnusXPirateBlack To be true because otherwise it won't change the already existing hangar bay"
             );
             setNumberInsteadAddUnitMagnusXPirateBlack = Config.Bind(
-                "Settings",
+                "UnitMagnusXPirateBlack",
                 "SetNumberInsteadAddUnitMagnusXPirateBlack",
                 false,
                 "If true, set the number of hangar bay instead of adding for UnitMagnusXPirateBlack"
             );
 
             numberOfBayHangarUnitOverlord = Config.Bind(
-                "BayHangar",
                 "UnitOverlord",
+                "BayHangar",
                 3,
                 "Number of hangar bay for UnitOverlord."
             );
             maxHullTypeUnitOverlord = Config.Bind(
-                "MaxHullType",
                 "UnitOverlord",
+                "MaxHullType",
                 ShipHullType.Frigate,
-                "Max hull type for UnitOverlord, need SetNumberInsteadAddUnitOverlord To be true because It won't change the already existing hangar bay"
+                "Max hull type for UnitOverlord, need SetNumberInsteadAddUnitOverlord To be true because otherwise it won't change the already existing hangar bay"
             );
             setNumberInsteadAddUnitOverlord = Config.Bind(
-                "Settings",
+                "UnitOverlord",
                 "SetNumberInsteadAddUnitOverlord",
                 false,
                 "If true, set the number of hangar bay instead of adding for UnitOverlord"
             );
 
             numberOfBayHangarUnitOverlordA = Config.Bind(
-                "BayHangar",
                 "UnitOverlordA",
+                "BayHangar",
                 3,
                 "Number of hangar bay for UnitOverlordA."
             );
             maxHullTypeUnitOverlordA = Config.Bind(
-                "MaxHullType",
                 "UnitOverlordA",
+                "MaxHullType",
                 ShipHullType.Frigate,
-                "Max hull type for UnitOverlordA, need SetNumberInsteadAddUnitOverlordA To be true because It won't change the already existing hangar bay"
+                "Max hull type for UnitOverlordA, need SetNumberInsteadAddUnitOverlordA To be true because otherwise it won't change the already existing hangar bay"
             );
             setNumberInsteadAddUnitOverlordA = Config.Bind(
-                "Settings",
+                "UnitOverlordA",
                 "SetNumberInsteadAddUnitOverlordA",
                 false,
                 "If true, set the number of hangar bay instead of adding for UnitOverlordA"
             );
 
             numberOfBayHangarUnitOverlordX = Config.Bind(
-                "BayHangar",
                 "UnitOverlordX",
+                "BayHangar",
                 3,
                 "Number of hangar bay for UnitOverlordX."
             );
+
             maxHullTypeUnitOverlordX = Config.Bind(
-                "MaxHullType",
                 "UnitOverlordX",
+                "MaxHullType",
                 ShipHullType.Frigate,
-                "Max hull type for UnitOverlordX, need SetNumberInsteadAddUnitOverlordX To be true because It won't change the already existing hangar bay"
+                "Max hull type for UnitOverlordX, need SetNumberInsteadAddUnitOverlordX To be true because otherwise it won't change the already existing hangar bay"
             );
             setNumberInsteadAddUnitOverlordX = Config.Bind(
-                "Settings",
+                "UnitOverlordX",
                 "SetNumberInsteadAddUnitOverlordX",
                 false,
                 "If true, set the number of hangar bay instead of adding for UnitOverlordX"
