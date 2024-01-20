@@ -313,8 +313,9 @@ namespace AeroFortaMoreHangar
 
             for (int i = 0; i < numberOfBayHangar; i++)
             {
+                string hullTypeString = maxHullType.ToString();
                 GameObject newHangar = new GameObject(
-                    $"Bay_{startingXValue + i * incrementXValue}_Frigate"
+                    $"Bay_{startingXValue + i * incrementXValue}_{hullTypeString}"
                 );
                 Pixelfactor.IP.Engine.UnitHangarBay unitHangarBay =
                     newHangar.AddComponent<Pixelfactor.IP.Engine.UnitHangarBay>();

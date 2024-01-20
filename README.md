@@ -1,7 +1,15 @@
+# Requirement
+- BepInEx is required
+- Definitely not compatible with other game
+- Tested only in 2.0.55 Steam version (Public Beta)
+- If there is a conflict after update for config, then delete the config
+
 # AeroFortaMoreHangar Plugin
 This plugin will add/set the amount of hangar bay for Magnus and Overlord(and any of their variant)
 - Customizable for each ship.
 - Allowing to set what MaxShipType that allowed to dock.
+
+
   
 # Currently Known Issue:
 Global multiplier so you don't need to individually adjust everything?
@@ -18,6 +26,3 @@ UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumer
 
 
 # Anyway Enjoy
-- BepInEx is required
-- Definitely not compatible with other game
-- Tested only in 2.0.55 Steam version (Public Beta)
