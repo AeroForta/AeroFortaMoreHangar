@@ -11,8 +11,9 @@ This plugin will add/set the amount of hangar bay for Magnus and Overlord(and an
 
 
   
-# Currently Known Issue:
-Global multiplier so you don't need to individually adjust everything?
+# Currently Known Issue(Must Read!!):
+- Any saved file with this plugin modification will cause that save to be unloadable when you trying to load the game without this plugin or trying to load the save file with different amount of hangar bay because you change something in the config.
+- Global multiplier so you don't need to individually adjust everything?
 
 THIS ISN'T THE PLUGIN FAULT, AS IT ALWAYS HAPPENED WHENEVER YOU FLYING YOUR SHIP DOCK TO THE MAGNUS AND OVERLORD(AN POSSIBLY OTHER UNIT) THEN EXIT SHIP THEN OPEN HANGAR THEN UNDOCK
 
